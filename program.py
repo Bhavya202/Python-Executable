@@ -14,7 +14,7 @@ def notify_water_reminder():
 def main():
     while True:
         notify_water_reminder()
-        time.sleep(30)  # 1800 seconds = 30 minutes
+        time.sleep(2700)  # 2700 seconds = 45 minutes
 
 if __name__ == "__main__":
     main()
